@@ -6,4 +6,4 @@ You can use:
 
 as response type.
 
-.addConverterFactory(JSONConverterFactory.create())
+Retrofit.Builder().addConverterFactory(JSONConverterFactory.create())
