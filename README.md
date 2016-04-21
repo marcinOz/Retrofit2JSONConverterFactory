@@ -5,3 +5,5 @@ org.json.JSONArray
 org.json.JSONObject
 
 as response type.
+
+.addConverterFactory(JSONConverterFactory.create())
